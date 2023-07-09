@@ -1,5 +1,5 @@
 "use strict";
-// AOS.init();
+AOS.init();
 const menu = [
     {
         name:"Coffee",
