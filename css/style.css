@@ -689,19 +689,19 @@ footer .copyright {
 /*start fixing some responsive problems */
 @media (width < 992px) {
     .home .fly-img-bottom-right {
-        width: 300px !important;
+        max-width: 300px !important;
     }
     .home {
         margin-top:45px !important;
     }
     .about .fly-img-top-right,
     .about .fly-img-top-left {
-        width: 300px !important;
+        max-width: 300px !important;
     }
     .contact .contact-fly-img-1 {
         top: -45px;
         right: -50px;
-        width: 320px !important;
+        max-width: 320px !important;
     }
 }
 @media (width < 768px) {
@@ -714,42 +714,42 @@ footer .copyright {
     .contact .contact-fly-img-1 {
         top: -40px;
         right: -35px;
-        width: 250px !important;
+        max-width: 250px !important;
     }
 }
 @media (width < 576px) {
     .home .fly-img-bottom-right {
-        width: 200px !important;
+        max-width: 200px !important;
     }
     .home .fly-img-top-left {
-        width: 200px !important;
+        max-width: 200px !important;
     }
     .about .fly-img-top-right {
-        width: 250px !important;
+        max-width: 250px !important;
         top: -70px;
         right: -80px;
     }
     .about .fly-img-top-left {
-        width: 250px !important;
+        max-width: 250px !important;
     }
     .menu .fly-img-top-right {
-        width: 130px;
+        max-width: 130px;
         top:-60px;
     }
     .menu .fly-img-middle-left {
-        width:130px;
+        max-width:130px;
     }
     .news button {
-        width:38%;
+        max-width:38%;
     }
     .news p {
         font-size:1rem !important;
     }
     .reviews .review-fly-img-1 {
-        width: 135px !important;
+        max-width: 135px !important;
     }
     .reviews .review-fly-img-2 {
-        width: 120px !important;
+        max-width: 120px !important;
         bottom: -25px;
     }
 }
@@ -758,36 +758,36 @@ footer .copyright {
         font-size:2.5em !important;
     }
     .home .fly-img-bottom-right {
-        width: 150px !important;
+        max-width: 150px !important;
     }
     .home .fly-img-top-left {
-        width: 150px !important;
+        max-width: 150px !important;
         top:-37px !important;
     }
     .about .fly-img-top-left {
-        width: 200px !important;
+        max-width: 200px !important;
     }
     .menu .fly-img-top-right {
-        width: 100px;
+        max-width: 100px;
         top:-60px;
     }
     .menu .fly-img-middle-left {
-        width:80px;
+        max-width:80px;
         bottom: -10px;
     }
     .news button {
-        width:60%;
+        max-width:60%;
     }
     .reviews .review-fly-img-1 {
-        width: 110px !important;
+        max-width: 110px !important;
     }
     .reviews .review-fly-img-2 {
-        width: 100px !important;
+        max-width: 100px !important;
     }
     .contact .contact-fly-img-1 {
         top: -28px;
         right: -20px;
-        width: 170px !important;
+        max-width: 170px !important;
     }
 
 }
